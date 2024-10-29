@@ -1,7 +1,7 @@
 class Person {
   String name = "Guest";
   String? address;
-  final String country = "INDONESIA";
+  final String country = "Indonesia";
 
   Person(String name, String address) {
     name = name;
@@ -10,7 +10,7 @@ class Person {
 }
 
 void main() {
-  var person = Person("AKU", "HULU SUNGAI UTARA");
+  var person = Person("Mie-Mie", "Malaysia");
   print(person.name);
   print(person.address);
 }
